@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100..700&display=swap');
+ 
+body {
+  margin: 0;
+  padding: 25px;
+  font-family: "IBM Plex Sans", serif;
+  background-color: #bdd2a5; /* Updated background color */
+  color:  #6a4201; /* Updated font color */
+}
+
+.topnav {
+  overflow: hidden
+  
+}
+
+.topnav a {
+  float: left;
+  color: #3F3F3F; /* Slightly darker text for contrast */
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.topnav a:hover {
+  background-color: #E8C86C; /* Slightly darker hover effect */
+  color: #3F3F3F;
+}
+
+.topnav a.active {
+  background-color: #E8C86C;
+  color: white;
+}
+
+.description {
+  padding-left: 10%;
+  padding-right: 25%;
+  padding-bottom: 30%;
+  height: 100%;
+}
+
+h1 {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  color:  #3F3F3F; /* Ensuring heading follows font color */
+}
+.footer-banner {
+  width: 100%;
+  background: white(161, 255, 47); 
+  color: #6a4201;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 13px;
+  position: relative; /* Change to 'fixed' if you want it always visible */
+  bottom: 0;
+}
+
+.footer-banner a {
+  color: white ;
+  text-decoration: none;
+}
+
+.footer-banner a:hover {
+  text-decoration: underline;
+}
+
+.descriptionsurvey {
+  padding-left: 10%;
+  padding-right: 25%;
+  margin-bottom: 2rem;
+}
+
+.surveywm {
+  padding-left: 10%;
+  padding-right: 25%;
+  padding-bottom: 30%;
+}
